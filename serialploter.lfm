@@ -1,0 +1,139 @@
+object FrmPlotter: TFrmPlotter
+  Left = 2704
+  Height = 533
+  Top = 373
+  Width = 736
+  Caption = 'Serial Plotter'
+  ClientHeight = 533
+  ClientWidth = 736
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object ToolBar1: TToolBar
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 736
+    Caption = 'ToolBar1'
+    TabOrder = 0
+    object cboBaudRate: TComboBox
+      Left = 353
+      Height = 32
+      Top = 2
+      Width = 213
+      ItemHeight = 24
+      TabOrder = 0
+      Text = 'cboBaudRate'
+    end
+    object Label1: TLabel
+      Left = 1
+      Height = 32
+      Top = 2
+      Width = 74
+      Align = alCustom
+      Caption = 'Porta Serial:    '
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 288
+      Height = 38
+      Top = 2
+      Width = 65
+      Align = alCustom
+      Caption = 'BaudRate:'
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object cboPortas: TComboBox
+      Left = 75
+      Height = 32
+      Top = 2
+      Width = 127
+      ItemHeight = 24
+      TabOrder = 1
+      Text = 'cboPortas'
+    end
+    object btnConectar: TButton
+      Left = 568
+      Height = 32
+      Top = 2
+      Width = 72
+      Align = alCustom
+      Caption = 'Conectar'
+      OnClick = btnConectarClick
+      TabOrder = 2
+    end
+    object btnLimpar: TButton
+      Left = 640
+      Height = 32
+      Top = 2
+      Width = 75
+      Align = alCustom
+      Caption = 'Limpar'
+      OnClick = btnLimparClick
+      TabOrder = 3
+    end
+    object btnAtualizar: TButton
+      Left = 202
+      Height = 32
+      Top = 2
+      Width = 75
+      Align = alCustom
+      Caption = 'Atualizar'
+      OnClick = btnAtualizarClick
+      TabOrder = 4
+    end
+  end
+  object Chart1: TChart
+    Left = 0
+    Height = 493
+    Top = 40
+    Width = 736
+    AxisList = <    
+      item
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Align = alClient
+    object ASeries: TLineSeries
+      LinePen.Color = clNavy
+      LinePen.Width = 3
+    end
+  end
+  object LazSerial1: TLazSerial
+    Active = False
+    BaudRate = br_____0
+    DataBits = db8bits
+    Parity = pNone
+    FlowControl = fcNone
+    StopBits = sbOne
+    SynSer.Tag = 0
+    SynSer.Handle = -1
+    SynSer.RaiseExcept = False
+    SynSer.TestDSR = False
+    SynSer.TestCTS = False
+    SynSer.MaxLineLength = 0
+    SynSer.DeadlockTimeout = 30000
+    SynSer.LinuxLock = False
+    SynSer.ConvertLineEnd = False
+    SynSer.AtTimeout = 1000
+    SynSer.InterPacketTimeout = True
+    SynSer.NonBlock = False
+    Device = '/dev/ttyS0'
+    RcvLineCRLF = False
+    Left = 56
+    Top = 440
+  end
+end

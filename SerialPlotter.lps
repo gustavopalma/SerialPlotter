@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Release"/>
+    <Units>
+      <Unit>
+        <Filename Value="SerialPlotter.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="65"/>
+      </Unit>
+      <Unit>
+        <Filename Value="serialploter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmPlotter"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SerialPloter"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="169"/>
+        <CursorPos X="8" Y="181"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../TLazSerial-0.6/lazsynaser.pas"/>
+        <UnitName Value="LazSynaSer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2183"/>
+        <CursorPos X="25" Y="2177"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../TLazSerial-0.6/lazserial.pas"/>
+        <UnitName Value="LazSerial"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="51"/>
+        <CursorPos X="22" Y="68"/>
+        <UsageCount Value="32"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="90" Column="85" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="73" Column="46" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="71" Column="21" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="75" Column="6" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="74" Column="51" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="99" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="33" Column="19" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="8" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="31" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="87" Column="3" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="29" Column="21" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="51" Column="46" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="110" Column="3" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="56" Column="31" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="111" Column="28" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="79" Column="33" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="87" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="90" Column="28" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="89" Column="24" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="94" Column="38" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="89" Column="20" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="88" Column="88" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="92" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="91" Column="15" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="86" Column="101" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="92" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="96" Column="27" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="104" Column="22" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="108" Column="37" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="serialploter.pas"/>
+        <Caret Line="207" Column="84" TopLine="183"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
